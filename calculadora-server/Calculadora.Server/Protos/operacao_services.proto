@@ -1,0 +1,12 @@
+﻿syntax = "proto3";
+
+package server;
+option csharp_namespace = "Calculadora.Server.Protos";
+import "operacao_messages.proto";
+
+service OperacaoService {
+	rpc Somar(ValoresRequest) returns (ResultadoResponse);
+	rpc Subtrair(ValoresRequest) returns (ResultadoResponse);
+	rpc Multiplicar(ValoresRequest) returns (ResultadoResponse);
+	rpc Dividir(ValoresRequest) returns (ResultadoResponse);
+} 

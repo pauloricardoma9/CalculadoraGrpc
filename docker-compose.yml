@@ -1,0 +1,31 @@
+version: "3.8"
+services:
+  calculadora-server:
+    container_name: Server
+    image: calculadora_server:1.0
+    build: 
+      context: calculadora-server
+      dockerfile: Calculadora.Server/Dockerfile
+    networks: 
+      - backend
+    restart: always
+
+  calculadora-client:
+    container_name: Client
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    image: calculadora_client:1.0
+    ports:
+      - "5001:80"
+    build: 
+      context: calculadora-client
+      dockerfile: Calculadora.Client/Dockerfile
+    depends_on:
+      - calculadora-server
+    networks: 
+      - backend
+    restart: always
+
+
+networks:
+  backend: 

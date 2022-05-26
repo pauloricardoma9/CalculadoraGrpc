@@ -1,0 +1,16 @@
+services:
+  calculadora.client:
+    build:
+      context: C:\Dev\CalculadoraGrpc\calculadora-client
+      dockerfile: Calculadora.Client/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: calculadoraclient
+    ports:
+    - published: 5001
+      target: 80
+    volumes:
+    - C:\Users\paulo\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\paulo\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

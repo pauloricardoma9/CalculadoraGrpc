@@ -1,0 +1,10 @@
+C:\Dev\CalculadoraGrpc\calculadora-client\Calculadora.Client.Anticorruption\bin\Debug\netcoreapp3.1\Calculadora.Client.Anticorruption.deps.json
+C:\Dev\CalculadoraGrpc\calculadora-client\Calculadora.Client.Anticorruption\bin\Debug\netcoreapp3.1\Calculadora.Client.Anticorruption.dll
+C:\Dev\CalculadoraGrpc\calculadora-client\Calculadora.Client.Anticorruption\bin\Debug\netcoreapp3.1\Calculadora.Client.Anticorruption.pdb
+C:\Dev\CalculadoraGrpc\calculadora-client\Calculadora.Client.Anticorruption\obj\Debug\netcoreapp3.1\Calculadora.Client.Anticorruption.csproj.AssemblyReference.cache
+C:\Dev\CalculadoraGrpc\calculadora-client\Calculadora.Client.Anticorruption\obj\Debug\netcoreapp3.1\Calculadora.Client.Anticorruption.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\CalculadoraGrpc\calculadora-client\Calculadora.Client.Anticorruption\obj\Debug\netcoreapp3.1\Calculadora.Client.Anticorruption.AssemblyInfoInputs.cache
+C:\Dev\CalculadoraGrpc\calculadora-client\Calculadora.Client.Anticorruption\obj\Debug\netcoreapp3.1\Calculadora.Client.Anticorruption.AssemblyInfo.cs
+C:\Dev\CalculadoraGrpc\calculadora-client\Calculadora.Client.Anticorruption\obj\Debug\netcoreapp3.1\Calculadora.Client.Anticorruption.csproj.CoreCompileInputs.cache
+C:\Dev\CalculadoraGrpc\calculadora-client\Calculadora.Client.Anticorruption\obj\Debug\netcoreapp3.1\Calculadora.Client.Anticorruption.dll
+C:\Dev\CalculadoraGrpc\calculadora-client\Calculadora.Client.Anticorruption\obj\Debug\netcoreapp3.1\Calculadora.Client.Anticorruption.pdb

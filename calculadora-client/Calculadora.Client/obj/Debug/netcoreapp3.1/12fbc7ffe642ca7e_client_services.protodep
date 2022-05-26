@@ -1,0 +1,3 @@
+obj\Debug\netcoreapp3.1/ClientServices.cs \
+obj\Debug\netcoreapp3.1/ClientServicesGrpc.cs: Protos/client_messages.proto\
+ Protos/client_services.proto

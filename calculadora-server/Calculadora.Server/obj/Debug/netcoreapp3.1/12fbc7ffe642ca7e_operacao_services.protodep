@@ -1,0 +1,3 @@
+obj\Debug\netcoreapp3.1/OperacaoServices.cs \
+obj\Debug\netcoreapp3.1/OperacaoServicesGrpc.cs: Protos/operacao_messages.proto\
+ Protos/operacao_services.proto

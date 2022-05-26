@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.AspNetCore" Version="2.46.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.46.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Ma9DevPack.Grpc" Version="1.5.0" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<Protobuf Include="Protos\*.proto" ProtoRoot="Protos\" GrpcServices="Client" />
+	</ItemGroup>
+	
+</Project>

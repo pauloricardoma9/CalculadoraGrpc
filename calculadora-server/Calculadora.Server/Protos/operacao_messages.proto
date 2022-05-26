@@ -1,0 +1,13 @@
+﻿syntax = "proto3";
+
+package server;
+option csharp_namespace = "Calculadora.Server.Protos.Message";
+
+message ValoresRequest {
+	double valor1 = 1;
+	double valor2 = 2;
+}
+
+message ResultadoResponse {
+	string valor = 1;
+}
