@@ -1,0 +1,10 @@
+C:\Dev\CalculadoraGrpc\calculadora-server\Calculadora.Server.Domain\bin\Debug\netcoreapp3.1\Calculadora.Server.Domain.deps.json
+C:\Dev\CalculadoraGrpc\calculadora-server\Calculadora.Server.Domain\bin\Debug\netcoreapp3.1\Calculadora.Server.Domain.dll
+C:\Dev\CalculadoraGrpc\calculadora-server\Calculadora.Server.Domain\bin\Debug\netcoreapp3.1\Calculadora.Server.Domain.pdb
+C:\Dev\CalculadoraGrpc\calculadora-server\Calculadora.Server.Domain\obj\Debug\netcoreapp3.1\Calculadora.Server.Domain.csproj.AssemblyReference.cache
+C:\Dev\CalculadoraGrpc\calculadora-server\Calculadora.Server.Domain\obj\Debug\netcoreapp3.1\Calculadora.Server.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\CalculadoraGrpc\calculadora-server\Calculadora.Server.Domain\obj\Debug\netcoreapp3.1\Calculadora.Server.Domain.AssemblyInfoInputs.cache
+C:\Dev\CalculadoraGrpc\calculadora-server\Calculadora.Server.Domain\obj\Debug\netcoreapp3.1\Calculadora.Server.Domain.AssemblyInfo.cs
+C:\Dev\CalculadoraGrpc\calculadora-server\Calculadora.Server.Domain\obj\Debug\netcoreapp3.1\Calculadora.Server.Domain.csproj.CoreCompileInputs.cache
+C:\Dev\CalculadoraGrpc\calculadora-server\Calculadora.Server.Domain\obj\Debug\netcoreapp3.1\Calculadora.Server.Domain.dll
+C:\Dev\CalculadoraGrpc\calculadora-server\Calculadora.Server.Domain\obj\Debug\netcoreapp3.1\Calculadora.Server.Domain.pdb

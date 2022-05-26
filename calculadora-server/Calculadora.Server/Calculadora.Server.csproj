@@ -24,4 +24,8 @@
 	  <None Remove="Protos\operacao_services.proto" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\Calculadora.Server.Domain\Calculadora.Server.Domain.csproj" />
+	</ItemGroup>
+
 </Project>

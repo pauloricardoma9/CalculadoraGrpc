@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "L0czUvsdZJox82cbu4v3juqh6WTHccmRFv8dieZemAc1KuoZB+vf4eSskT4tXXielRUoBjOao9qoJpV+PIyE7Q==",
+  "dgSpecHash": "oJmlPINLohIqdIwH9/6NInsY8BHaw2WTQ5Znqwc+v4llNNMMXk+zyWSjEpy7MUEdshiUZuoRCeWKPMoc9moAXA==",
   "success": true,
   "projectFilePath": "C:\\Dev\\CalculadoraGrpc\\calculadora-server\\Calculadora.Server\\Calculadora.Server.csproj",
   "expectedPackageFiles": [

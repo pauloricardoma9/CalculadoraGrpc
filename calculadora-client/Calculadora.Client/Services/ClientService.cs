@@ -21,32 +21,37 @@ namespace Calculadora.Client.Services
         public override Task<ResultadoResponse> Somar(ValoresRequest request, ServerCallContext context)
         {
             var dados = mapper.Map<Dados>(request);
-            var resultado = clientDomainService.Somar(dados);
-            return Task.FromResult(mapper.Map<ResultadoResponse>(new Resultado(resultado.Result)));
+            var valorResultante = clientDomainService.Somar(dados);
+            var resultado = new Resultado(valorResultante.Result);
+
+            return Task.FromResult(mapper.Map<ResultadoResponse>(resultado));
         }
 
         public override Task<ResultadoResponse> Subtrair(ValoresRequest request, ServerCallContext context)
         {
             var dados = mapper.Map<Dados>(request);
-            var resultado = clientDomainService.Subtrair(dados);
+            var valorResultante = clientDomainService.Subtrair(dados);
+            var resultado = new Resultado(valorResultante.Result);
 
-            return Task.FromResult(mapper.Map<ResultadoResponse>(new Resultado(resultado.Result)));
+            return Task.FromResult(mapper.Map<ResultadoResponse>(resultado));
         }
 
         public override Task<ResultadoResponse> Multiplicar(ValoresRequest request, ServerCallContext context)
         {
             var dados = mapper.Map<Dados>(request);
-            var resultado = clientDomainService.Multiplicar(dados);
+            var valorResultante = clientDomainService.Multiplicar(dados);
+            var resultado = new Resultado(valorResultante.Result);
 
-            return Task.FromResult(mapper.Map<ResultadoResponse>(new Resultado(resultado.Result)));
+            return Task.FromResult(mapper.Map<ResultadoResponse>(resultado));
         }
 
         public override Task<ResultadoResponse> Dividir(ValoresRequest request, ServerCallContext context)
         {
             var dados = mapper.Map<Dados>(request);
-            var resultado = clientDomainService.Dividir(dados);
+            var valorResultante = clientDomainService.Dividir(dados);
+            var resultado = new Resultado(valorResultante.Result);
 
-            return Task.FromResult(mapper.Map<ResultadoResponse>(new Resultado(resultado.Result)));
+            return Task.FromResult(mapper.Map<ResultadoResponse>(resultado));
         }
     }
 }

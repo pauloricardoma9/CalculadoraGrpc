@@ -39,10 +39,7 @@ namespace Calculadora.Client.Domain.Services
 
         public async Task<string> Dividir(Dados dados)
         {
-            if(dados.Valor2 == 0)
-            {
-                return "Não é possível dividir por 0";
-            }
+            if(dados.Valor2 == 0) return "Não é possível dividir por 0";
 
             var resultado = await serverService.Dividir(dados.Valor1, dados.Valor2);
             return resultado;

@@ -25,3 +25,5 @@ C:\Dev\CalculadoraGrpc\calculadora-server\Calculadora.Server\obj\Debug\netcoreap
 C:\Dev\CalculadoraGrpc\calculadora-server\Calculadora.Server\obj\Debug\netcoreapp3.1\Calculadora.Server.dll
 C:\Dev\CalculadoraGrpc\calculadora-server\Calculadora.Server\obj\Debug\netcoreapp3.1\Calculadora.Server.pdb
 C:\Dev\CalculadoraGrpc\calculadora-server\Calculadora.Server\obj\Debug\netcoreapp3.1\Calculadora.Server.genruntimeconfig.cache
+C:\Dev\CalculadoraGrpc\calculadora-server\Calculadora.Server\bin\Debug\netcoreapp3.1\Calculadora.Server.Domain.dll
+C:\Dev\CalculadoraGrpc\calculadora-server\Calculadora.Server\bin\Debug\netcoreapp3.1\Calculadora.Server.Domain.pdb

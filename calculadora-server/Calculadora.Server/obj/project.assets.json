@@ -268,6 +268,16 @@
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
+      },
+      "Calculadora.Server.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Calculadora.Server.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Calculadora.Server.Domain.dll": {}
+        }
       }
     }
   },
@@ -808,10 +818,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Calculadora.Server.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Calculadora.Server.Domain/Calculadora.Server.Domain.csproj",
+      "msbuildProject": "../Calculadora.Server.Domain/Calculadora.Server.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Calculadora.Server.Domain >= 1.0.0",
       "Grpc.AspNetCore >= 2.46.0",
       "Grpc.Tools >= 2.46.3",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.14.0"
@@ -850,7 +866,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Dev\\CalculadoraGrpc\\calculadora-server\\Calculadora.Server.Domain\\Calculadora.Server.Domain.csproj": {
+              "projectPath": "C:\\Dev\\CalculadoraGrpc\\calculadora-server\\Calculadora.Server.Domain\\Calculadora.Server.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

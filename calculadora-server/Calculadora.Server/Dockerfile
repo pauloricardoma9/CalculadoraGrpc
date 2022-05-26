@@ -8,6 +8,7 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 WORKDIR /src
 COPY ["Calculadora.Server/Calculadora.Server.csproj", "Calculadora.Server/"]
+COPY ["Calculadora.Server.Domain/Calculadora.Server.Domain.csproj", "Calculadora.Server.Domain/"]
 RUN dotnet restore "Calculadora.Server/Calculadora.Server.csproj"
 COPY . .
 WORKDIR "/src/Calculadora.Server"
